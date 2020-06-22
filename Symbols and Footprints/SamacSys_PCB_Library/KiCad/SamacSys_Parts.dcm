@@ -1,0 +1,105 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP NE555DR
+D Single Precision Timer
+K
+F http://www.ti.com/lit/ds/symlink/ne555.pdf
+$ENDCMP
+#
+$CMP CP2102N-A01-GQFN28
+D SILICON LABS - CP2102N-A01-GQFN28 - USB-UART INTERFACE BRIDGE, QFN-28
+K
+F https://componentsearchengine.com/Datasheets/1/CP2102N-A01-GQFN28.pdf
+$ENDCMP
+#
+$CMP ESD401DPYR
+D 1-Channel ESD Protection Diode
+K
+F http://www.ti.com/lit/ds/symlink/esd401.pdf
+$ENDCMP
+#
+$CMP SS8050-G
+D Bipolar Transistors - BJT NPN TRANSISTOR 1.5A 40V
+K
+F https://componentsearchengine.com/Datasheets/1/SS8050-G.pdf
+$ENDCMP
+#
+$CMP BAT760-7
+D Diode Schottky 30V 1A 2Pin SOD323 Diodes Inc BAT760-7, SMT Schottky Diode, 30V 1A, 2-Pin SOD-323
+K
+F https://componentsearchengine.com/Datasheets/1/BAT760-7.pdf
+$ENDCMP
+#
+$CMP PIC24FJ256GA704-I_PT
+D MICROCHIP - PIC24FJ256GA704-I/PT - MCU, 16BIT, PIC24, 32MHZ, TQFP-44
+K
+F https://componentsearchengine.com/Datasheets/1/PIC24FJ256GA704-I_PT.pdf
+$ENDCMP
+#
+$CMP MCP73830T-2AAI_MYY
+D Battery Management 1A LI-ION BATTERY CHARGE MGNT CNTRLR
+K
+F https://componentsearchengine.com/Datasheets/1/MCP73830T-2AAI_MYY.pdf
+$ENDCMP
+#
+$CMP SMAJ5.0A
+D Littelfuse SMAJ5.0A, Uni-Directional TVS Diode, 400W, 2-Pin DO-214AC
+K
+F https://componentsearchengine.com/Datasheets/1/SMAJ5.0A.pdf
+$ENDCMP
+#
+$CMP TPS63031DSKT
+D High Efficient Single Inductor Buck-Boost Converter with 1-A Switches 
+K
+F http://www.ti.com/lit/gpn/tps63031
+$ENDCMP
+#
+$CMP BQ29700DSET
+D Texas Instruments BQ29700DSET, Battery Charger Lithium-Ion, Lithium-Polymer, 6-Pin WSON
+K
+F http://www.ti.com/lit/ds/symlink/bq2970.pdf
+$ENDCMP
+#
+$CMP CSD16406Q3
+D N-Channel NexFET&#153; Power MOSFET
+K
+F http://www.ti.com/lit/gpn/csd16406q3
+$ENDCMP
+#
+$CMP WP154A4SEJ3VBDZGW_CA
+D Standard LEDs - Through Hole 5MM RGB LED
+K
+F https://componentsearchengine.com/Datasheets/1/WP154A4SEJ3VBDZGW_CA.pdf
+$ENDCMP
+#
+$CMP LQH3NPN470MM0L
+D Inductor SMD 1212 Shielded 47uH Murata LQH3NP_M0 Series Shielded Wire-wound SMD Inductor with a Ferrite Core, 47 uH  /-20% 410mA Idc
+K
+F http://psearch.en.murata.com/inductor/product/LQH3NPN470MM0%23.pdf
+$ENDCMP
+#
+$CMP 505567-0471
+D MOLEX - 505567-0471. - CONNECTOR, HEADER, 4POS, 1ROW, 1.25MM
+K
+F https://componentsearchengine.com/Datasheets/1/505567-0471.pdf
+$ENDCMP
+#
+$CMP 505567-0271
+D Micro-Lock PLUS Right Angle Header, 2P
+K
+F https://componentsearchengine.com/Datasheets/1/505567-0271.pdf
+$ENDCMP
+#
+$CMP PESD3V3L1BA,115
+D ESD Suppressors / TVS Diodes 3.3V BIDIRECTION ESD
+K
+F https://componentsearchengine.com/Datasheets/1/PESD3V3L1BA,115.pdf
+$ENDCMP
+#
+$CMP PTS645SM43SMTR92LFS
+D Tactile Switches SWITCH TACTILE
+K
+F https://www.mouser.be/datasheet/2/60/pts645-1382776.pdf
+$ENDCMP
+#
+#End Doc Library
