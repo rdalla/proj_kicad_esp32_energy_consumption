@@ -1,2 +1,6 @@
-# proj_esp32_energy_consumption
-The project is a energy monitoring module. It is based on ESP32 with ADS1115 (ADC) with two current sensors (sct-013-020).
+# ESP32 ENERGY MONITORING MODULE
+
+##MAIN COMPONENTS:
+- ESP-WROOM-32 (ESP32 WIFI MODULE)
+- ADS1115IDGSR (ADC 16BIT 4 CHANNEL I2C) 
+- SCT-013-020 (CURRENT SENSOR 30A - NOT INVASIVE)
