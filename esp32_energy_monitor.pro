@@ -1,4 +1,4 @@
-update=14/07/2019 10:29:29
+update=22/06/2020 21:57:11
 version=1
 last_client=kicad
 [cvpcb]
@@ -6,23 +6,23 @@ version=1
 NetIExt=net
 [general]
 version=1
+[eeschema]
+version=1
+LibDir=
 [schematic_editor]
 version=1
 PageLayoutDescrFile=
 PlotDirectoryName=
 SubpartIdSeparator=0
 SubpartFirstId=65
-NetFmtName=
+NetFmtName=Pcbnew
 SpiceAjustPassiveValues=0
 LabSize=60
 ERC_TestSimilarLabels=1
-[eeschema]
-version=1
-LibDir=
 [pcbnew]
 version=1
 PageLayoutDescrFile=
-LastNetListRead=padlock.net
+LastNetListRead=esp32_energy_monitor.net
 CopperLayerCount=4
 BoardThickness=1.6
 AllowMicroVias=0
@@ -64,7 +64,7 @@ OthersTextUpright=1
 SolderMaskClearance=0.051
 SolderMaskMinWidth=0.25
 SolderPasteClearance=0
-SolderPasteRatio=-0
+SolderPasteRatio=0
 [pcbnew/Layer.F.Cu]
 Name=F.Cu
 Type=0

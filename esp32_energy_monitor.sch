@@ -63,10 +63,10 @@ F 3 "" H 950 2400 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L esp32_energy_monitor-rescue:GND-padlock-rescue #PWR01
+L esp32_energy_monitor-rescue:GND-padlock-rescue #PWR05
 U 1 1 5CEEAE0F
 P 1450 1800
-F 0 "#PWR01" H 1450 1550 50  0001 C CNN
+F 0 "#PWR05" H 1450 1550 50  0001 C CNN
 F 1 "GND" H 1450 1650 50  0000 C CNN
 F 2 "" H 1450 1800 50  0001 C CNN
 F 3 "" H 1450 1800 50  0001 C CNN
@@ -74,10 +74,10 @@ F 3 "" H 1450 1800 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L esp32_energy_monitor-rescue:GND-padlock-rescue #PWR02
+L esp32_energy_monitor-rescue:GND-padlock-rescue #PWR06
 U 1 1 5CEEAE93
 P 1450 2450
-F 0 "#PWR02" H 1450 2200 50  0001 C CNN
+F 0 "#PWR06" H 1450 2200 50  0001 C CNN
 F 1 "GND" H 1450 2300 50  0000 C CNN
 F 2 "" H 1450 2450 50  0001 C CNN
 F 3 "" H 1450 2450 50  0001 C CNN
@@ -85,10 +85,10 @@ F 3 "" H 1450 2450 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L esp32_energy_monitor-rescue:GNDD-padlock-rescue #PWR03
+L esp32_energy_monitor-rescue:GNDD-padlock-rescue #PWR01
 U 1 1 5CEEAFAE
 P 750 2450
-F 0 "#PWR03" H 750 2200 50  0001 C CNN
+F 0 "#PWR01" H 750 2200 50  0001 C CNN
 F 1 "GNDD" H 750 2325 50  0000 C CNN
 F 2 "" H 750 2450 50  0001 C CNN
 F 3 "" H 750 2450 50  0001 C CNN
@@ -97,10 +97,10 @@ F 3 "" H 750 2450 50  0001 C CNN
 $EndComp
 NoConn ~ 1150 1400
 $Comp
-L esp32_energy_monitor-rescue:GND-padlock-rescue #PWR04
+L esp32_energy_monitor-rescue:GND-padlock-rescue #PWR010
 U 1 1 5CEEB043
 P 2000 700
-F 0 "#PWR04" H 2000 450 50  0001 C CNN
+F 0 "#PWR010" H 2000 450 50  0001 C CNN
 F 1 "GND" H 2000 550 50  0000 C CNN
 F 2 "" H 2000 700 50  0001 C CNN
 F 3 "" H 2000 700 50  0001 C CNN
@@ -209,10 +209,10 @@ F 3 "" H 2150 7250 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L esp32_energy_monitor-rescue:+3.3V-padlock-rescue #PWR07
+L esp32_energy_monitor-rescue:+3.3V-padlock-rescue #PWR014
 U 1 1 5CEECCF4
 P 2500 7450
-F 0 "#PWR07" H 2500 7300 50  0001 C CNN
+F 0 "#PWR014" H 2500 7300 50  0001 C CNN
 F 1 "+3.3V" H 2500 7590 50  0000 C CNN
 F 2 "" H 2500 7450 50  0001 C CNN
 F 3 "" H 2500 7450 50  0001 C CNN
@@ -220,10 +220,10 @@ F 3 "" H 2500 7450 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L esp32_energy_monitor-rescue:+3.3V-padlock-rescue #PWR08
+L esp32_energy_monitor-rescue:+3.3V-padlock-rescue #PWR02
 U 1 1 5CEECDD9
 P 900 6300
-F 0 "#PWR08" H 900 6150 50  0001 C CNN
+F 0 "#PWR02" H 900 6150 50  0001 C CNN
 F 1 "+3.3V" H 900 6440 50  0000 C CNN
 F 2 "" H 900 6300 50  0001 C CNN
 F 3 "" H 900 6300 50  0001 C CNN
@@ -231,10 +231,10 @@ F 3 "" H 900 6300 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L esp32_energy_monitor-rescue:GND-padlock-rescue #PWR010
+L esp32_energy_monitor-rescue:GND-padlock-rescue #PWR03
 U 1 1 5CEED6F8
 P 1050 6750
-F 0 "#PWR010" H 1050 6500 50  0001 C CNN
+F 0 "#PWR03" H 1050 6500 50  0001 C CNN
 F 1 "GND" H 1050 6600 50  0000 C CNN
 F 2 "" H 1050 6750 50  0001 C CNN
 F 3 "" H 1050 6750 50  0001 C CNN
@@ -242,10 +242,10 @@ F 3 "" H 1050 6750 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L esp32_energy_monitor-rescue:GND-padlock-rescue #PWR011
+L esp32_energy_monitor-rescue:GND-padlock-rescue #PWR04
 U 1 1 5CEEDB11
 P 1300 5750
-F 0 "#PWR011" H 1300 5500 50  0001 C CNN
+F 0 "#PWR04" H 1300 5500 50  0001 C CNN
 F 1 "GND" H 1300 5600 50  0000 C CNN
 F 2 "" H 1300 5750 50  0001 C CNN
 F 3 "" H 1300 5750 50  0001 C CNN
@@ -281,10 +281,10 @@ $EndComp
 Text GLabel 1550 6750 1    60   Input ~ 0
 VBUS
 $Comp
-L esp32_energy_monitor-rescue:GND-padlock-rescue #PWR013
+L esp32_energy_monitor-rescue:GND-padlock-rescue #PWR07
 U 1 1 5CEEF74C
 P 1550 7550
-F 0 "#PWR013" H 1550 7300 50  0001 C CNN
+F 0 "#PWR07" H 1550 7300 50  0001 C CNN
 F 1 "GND" H 1550 7400 50  0000 C CNN
 F 2 "" H 1550 7550 50  0001 C CNN
 F 3 "" H 1550 7550 50  0001 C CNN
@@ -307,10 +307,10 @@ NoConn ~ 2650 4550
 NoConn ~ 2350 6950
 NoConn ~ 2450 6950
 $Comp
-L esp32_energy_monitor-rescue:GND-padlock-rescue #PWR014
+L esp32_energy_monitor-rescue:GND-padlock-rescue #PWR09
 U 1 1 5CEF1F84
 P 1800 4400
-F 0 "#PWR014" H 1800 4150 50  0001 C CNN
+F 0 "#PWR09" H 1800 4150 50  0001 C CNN
 F 1 "GND" H 1800 4250 50  0000 C CNN
 F 2 "" H 1800 4400 50  0001 C CNN
 F 3 "" H 1800 4400 50  0001 C CNN
@@ -449,10 +449,10 @@ F 9 "MCP73830T-2AAI/MYY" H 9750 4750 50  0001 L CNN "Manufacturer_Part_Number"
 	1    0    0    -1  
 $EndComp
 $Comp
-L esp32_energy_monitor-rescue:C-padlock-rescue C19
+L esp32_energy_monitor-rescue:C-padlock-rescue C18
 U 1 1 5CF02F69
 P 8500 5750
-F 0 "C19" H 8525 5850 50  0000 L CNN
+F 0 "C18" H 8525 5850 50  0000 L CNN
 F 1 "4.7uF 16V/XR7" H 8250 5650 50  0000 L CNN
 F 2 "Capacitors_SMD:C_0805" H 8538 5600 50  0001 C CNN
 F 3 "" H 8500 5750 50  0001 C CNN
@@ -471,10 +471,10 @@ F 3 "" H 10100 5700 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L esp32_energy_monitor-rescue:GND-padlock-rescue #PWR015
+L esp32_energy_monitor-rescue:GND-padlock-rescue #PWR047
 U 1 1 5CF032A2
 P 8500 5950
-F 0 "#PWR015" H 8500 5700 50  0001 C CNN
+F 0 "#PWR047" H 8500 5700 50  0001 C CNN
 F 1 "GND" H 8500 5800 50  0000 C CNN
 F 2 "" H 8500 5950 50  0001 C CNN
 F 3 "" H 8500 5950 50  0001 C CNN
@@ -482,10 +482,10 @@ F 3 "" H 8500 5950 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L esp32_energy_monitor-rescue:GND-padlock-rescue #PWR016
+L esp32_energy_monitor-rescue:GND-padlock-rescue #PWR051
 U 1 1 5CF03304
 P 10100 5950
-F 0 "#PWR016" H 10100 5700 50  0001 C CNN
+F 0 "#PWR051" H 10100 5700 50  0001 C CNN
 F 1 "GND" H 10100 5800 50  0000 C CNN
 F 2 "" H 10100 5950 50  0001 C CNN
 F 3 "" H 10100 5950 50  0001 C CNN
@@ -493,10 +493,10 @@ F 3 "" H 10100 5950 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L esp32_energy_monitor-rescue:R-padlock-rescue R18
+L esp32_energy_monitor-rescue:R-padlock-rescue R21
 U 1 1 5CF040C5
 P 11050 5500
-F 0 "R18" V 11130 5500 50  0000 C CNN
+F 0 "R21" V 11130 5500 50  0000 C CNN
 F 1 "1.5k" V 10950 5500 50  0000 C CNN
 F 2 "Resistors_SMD:R_0603" V 10980 5500 50  0001 C CNN
 F 3 "" H 11050 5500 50  0001 C CNN
@@ -504,10 +504,10 @@ F 3 "" H 11050 5500 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L esp32_energy_monitor-rescue:GND-padlock-rescue #PWR017
+L esp32_energy_monitor-rescue:GND-padlock-rescue #PWR053
 U 1 1 5CF04227
 P 11050 5700
-F 0 "#PWR017" H 11050 5450 50  0001 C CNN
+F 0 "#PWR053" H 11050 5450 50  0001 C CNN
 F 1 "GND" H 11050 5550 50  0000 C CNN
 F 2 "" H 11050 5700 50  0001 C CNN
 F 3 "" H 11050 5700 50  0001 C CNN
@@ -537,23 +537,23 @@ F 9 "SMAJ5.0A" H 10900 5100 50  0001 L BNN "Manufacturer_Part_Number"
 	0    1    1    0   
 $EndComp
 $Comp
-L esp32_energy_monitor-rescue:GND-padlock-rescue #PWR018
+L esp32_energy_monitor-rescue:GND-padlock-rescue #PWR052
 U 1 1 5CF08A1D
 P 10500 6300
-F 0 "#PWR018" H 10500 6050 50  0001 C CNN
+F 0 "#PWR052" H 10500 6050 50  0001 C CNN
 F 1 "GND" H 10500 6150 50  0000 C CNN
 F 2 "" H 10500 6300 50  0001 C CNN
 F 3 "" H 10500 6300 50  0001 C CNN
 	1    10500 6300
 	1    0    0    -1  
 $EndComp
-Text Notes 8100 6350 0    60   ~ 0
-Battery Charger
+Text Notes 8050 6450 0    60   ~ 0
+Li-Ion Battery Charger 1A\n
 $Comp
 L esp32_energy_monitor-rescue:LED-padlock-rescue D4
 U 1 1 5CF0A571
 P 8950 5100
-F 0 "D4" H 8950 5200 50  0000 C CNN
+F 0 "D4" H 9075 5050 50  0000 C CNN
 F 1 "LED" H 8950 5000 50  0000 C CNN
 F 2 "LEDs:LED_0603" H 8950 5100 50  0001 C CNN
 F 3 "" H 8950 5100 50  0001 C CNN
@@ -561,10 +561,10 @@ F 3 "" H 8950 5100 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L esp32_energy_monitor-rescue:R-padlock-rescue R15
+L esp32_energy_monitor-rescue:R-padlock-rescue R18
 U 1 1 5CF0A5FC
 P 8550 5100
-F 0 "R15" V 8630 5100 50  0000 C CNN
+F 0 "R18" V 8630 5100 50  0000 C CNN
 F 1 "1k" V 8550 5100 50  0000 C CNN
 F 2 "Resistors_SMD:R_0603" V 8480 5100 50  0001 C CNN
 F 3 "" H 8550 5100 50  0001 C CNN
@@ -574,10 +574,10 @@ $EndComp
 Text GLabel 9200 5100 2    60   Input ~ 0
 VBUS
 $Comp
-L esp32_energy_monitor-rescue:+3.3V-padlock-rescue #PWR019
+L esp32_energy_monitor-rescue:+3.3V-padlock-rescue #PWR044
 U 1 1 5CF123AD
 P 7100 2550
-F 0 "#PWR019" H 7100 2400 50  0001 C CNN
+F 0 "#PWR044" H 7100 2400 50  0001 C CNN
 F 1 "+3.3V" H 7100 2690 50  0000 C CNN
 F 2 "" H 7100 2550 50  0001 C CNN
 F 3 "" H 7100 2550 50  0001 C CNN
@@ -587,10 +587,10 @@ $EndComp
 Text GLabel 5500 3400 0    60   Input ~ 0
 IO0
 $Comp
-L esp32_energy_monitor-rescue:GND-padlock-rescue #PWR020
+L esp32_energy_monitor-rescue:GND-padlock-rescue #PWR036
 U 1 1 5CF12E36
 P 6350 5450
-F 0 "#PWR020" H 6350 5200 50  0001 C CNN
+F 0 "#PWR036" H 6350 5200 50  0001 C CNN
 F 1 "GND" H 6350 5300 50  0000 C CNN
 F 2 "" H 6350 5450 50  0001 C CNN
 F 3 "" H 6350 5450 50  0001 C CNN
@@ -602,10 +602,10 @@ RX0
 Text GLabel 7300 4100 2    60   Input ~ 0
 TX0
 $Comp
-L esp32_energy_monitor-rescue:C-padlock-rescue C14
+L esp32_energy_monitor-rescue:C-padlock-rescue C16
 U 1 1 5CF15912
 P 7100 2800
-F 0 "C14" H 7125 2900 50  0000 L CNN
+F 0 "C16" H 7125 2900 50  0000 L CNN
 F 1 "10uF" H 7125 2700 50  0000 L CNN
 F 2 "Capacitors_SMD:C_0603" H 7138 2650 50  0001 C CNN
 F 3 "" H 7100 2800 50  0001 C CNN
@@ -613,10 +613,10 @@ F 3 "" H 7100 2800 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L esp32_energy_monitor-rescue:C-padlock-rescue C12
+L esp32_energy_monitor-rescue:C-padlock-rescue C13
 U 1 1 5CF159CF
 P 6800 2800
-F 0 "C12" H 6825 2900 50  0000 L CNN
+F 0 "C13" H 6825 2900 50  0000 L CNN
 F 1 "0.1uF" H 6825 2700 50  0000 L CNN
 F 2 "Capacitors_SMD:C_0603" H 6838 2650 50  0001 C CNN
 F 3 "" H 6800 2800 50  0001 C CNN
@@ -624,10 +624,10 @@ F 3 "" H 6800 2800 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L esp32_energy_monitor-rescue:GND-padlock-rescue #PWR021
+L esp32_energy_monitor-rescue:GND-padlock-rescue #PWR043
 U 1 1 5CF15BEE
 P 6950 3000
-F 0 "#PWR021" H 6950 2750 50  0001 C CNN
+F 0 "#PWR043" H 6950 2750 50  0001 C CNN
 F 1 "GND" H 6950 2850 50  0000 C CNN
 F 2 "" H 6950 3000 50  0001 C CNN
 F 3 "" H 6950 3000 50  0001 C CNN
@@ -657,10 +657,10 @@ F 3 "" H 3700 2800 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L esp32_energy_monitor-rescue:+3.3V-padlock-rescue #PWR022
+L esp32_energy_monitor-rescue:+3.3V-padlock-rescue #PWR015
 U 1 1 5CF170C2
 P 3700 2600
-F 0 "#PWR022" H 3700 2450 50  0001 C CNN
+F 0 "#PWR015" H 3700 2450 50  0001 C CNN
 F 1 "+3.3V" H 3700 2740 50  0000 C CNN
 F 2 "" H 3700 2600 50  0001 C CNN
 F 3 "" H 3700 2600 50  0001 C CNN
@@ -668,10 +668,10 @@ F 3 "" H 3700 2600 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L esp32_energy_monitor-rescue:GND-padlock-rescue #PWR023
+L esp32_energy_monitor-rescue:GND-padlock-rescue #PWR016
 U 1 1 5CF1720C
 P 3700 3400
-F 0 "#PWR023" H 3700 3150 50  0001 C CNN
+F 0 "#PWR016" H 3700 3150 50  0001 C CNN
 F 1 "GND" H 3700 3250 50  0000 C CNN
 F 2 "" H 3700 3400 50  0001 C CNN
 F 3 "" H 3700 3400 50  0001 C CNN
@@ -705,10 +705,10 @@ F 3 "" H 4150 4100 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L esp32_energy_monitor-rescue:C-padlock-rescue C7
+L esp32_energy_monitor-rescue:C-padlock-rescue C8
 U 1 1 5CF17E3E
 P 4150 5100
-F 0 "C7" H 4175 5200 50  0000 L CNN
+F 0 "C8" H 4175 5200 50  0000 L CNN
 F 1 "0.1uF" H 4175 5000 50  0000 L CNN
 F 2 "Capacitors_SMD:C_0603" H 4188 4950 50  0001 C CNN
 F 3 "" H 4150 5100 50  0001 C CNN
@@ -716,10 +716,10 @@ F 3 "" H 4150 5100 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L esp32_energy_monitor-rescue:C-padlock-rescue C6
+L esp32_energy_monitor-rescue:C-padlock-rescue C7
 U 1 1 5CF17F06
 P 4150 4250
-F 0 "C6" H 4175 4350 50  0000 L CNN
+F 0 "C7" H 4175 4350 50  0000 L CNN
 F 1 "0.1uF" H 4175 4150 50  0000 L CNN
 F 2 "Capacitors_SMD:C_0603" H 4188 4100 50  0001 C CNN
 F 3 "" H 4150 4250 50  0001 C CNN
@@ -727,10 +727,10 @@ F 3 "" H 4150 4250 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L esp32_energy_monitor-rescue:GND-padlock-rescue #PWR024
+L esp32_energy_monitor-rescue:GND-padlock-rescue #PWR020
 U 1 1 5CF1865E
 P 3850 5200
-F 0 "#PWR024" H 3850 4950 50  0001 C CNN
+F 0 "#PWR020" H 3850 4950 50  0001 C CNN
 F 1 "GND" H 3850 5050 50  0000 C CNN
 F 2 "" H 3850 5200 50  0001 C CNN
 F 3 "" H 3850 5200 50  0001 C CNN
@@ -738,10 +738,10 @@ F 3 "" H 3850 5200 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L esp32_energy_monitor-rescue:GND-padlock-rescue #PWR025
+L esp32_energy_monitor-rescue:GND-padlock-rescue #PWR019
 U 1 1 5CF186E4
 P 3850 4300
-F 0 "#PWR025" H 3850 4050 50  0001 C CNN
+F 0 "#PWR019" H 3850 4050 50  0001 C CNN
 F 1 "GND" H 3850 4150 50  0000 C CNN
 F 2 "" H 3850 4300 50  0001 C CNN
 F 3 "" H 3850 4300 50  0001 C CNN
@@ -785,10 +785,10 @@ F 3 "" H 4750 1150 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L esp32_energy_monitor-rescue:C-padlock-rescue C9
+L esp32_energy_monitor-rescue:C-padlock-rescue C10
 U 1 1 5CF1881F
 P 4950 1650
-F 0 "C9" H 4975 1750 50  0000 L CNN
+F 0 "C10" H 4975 1750 50  0000 L CNN
 F 1 "10uF 6.3V X7R " H 4750 1550 50  0000 L CNN
 F 2 "Capacitors_SMD:C_0603" H 4988 1500 50  0001 C CNN
 F 3 "" H 4950 1650 50  0001 C CNN
@@ -796,10 +796,10 @@ F 3 "" H 4950 1650 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L esp32_energy_monitor-rescue:C-padlock-rescue C13
+L esp32_energy_monitor-rescue:C-padlock-rescue C14
 U 1 1 5CF18987
 P 6850 1600
-F 0 "C13" H 6875 1700 50  0000 L CNN
+F 0 "C14" H 6875 1700 50  0000 L CNN
 F 1 "0.1uF XR7 ceramic" H 6450 1500 50  0000 L CNN
 F 2 "Capacitors_SMD:C_0603" H 6888 1450 50  0001 C CNN
 F 3 "" H 6850 1600 50  0001 C CNN
@@ -818,10 +818,10 @@ F 3 "" H 7100 1150 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L esp32_energy_monitor-rescue:C-padlock-rescue C16
+L esp32_energy_monitor-rescue:C-padlock-rescue C17
 U 1 1 5CF18B3C
 P 7350 1150
-F 0 "C16" H 7375 1250 50  0000 L CNN
+F 0 "C17" H 7375 1250 50  0000 L CNN
 F 1 "10uF" H 7375 1050 50  0000 L CNN
 F 2 "Capacitors_SMD:C_0603" H 7388 1000 50  0001 C CNN
 F 3 "" H 7350 1150 50  0001 C CNN
@@ -829,10 +829,10 @@ F 3 "" H 7350 1150 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L esp32_energy_monitor-rescue:+3.3V-padlock-rescue #PWR026
+L esp32_energy_monitor-rescue:+3.3V-padlock-rescue #PWR038
 U 1 1 5CF18EF7
 P 6650 750
-F 0 "#PWR026" H 6650 600 50  0001 C CNN
+F 0 "#PWR038" H 6650 600 50  0001 C CNN
 F 1 "+3.3V" H 6650 890 50  0000 C CNN
 F 2 "" H 6650 750 50  0001 C CNN
 F 3 "" H 6650 750 50  0001 C CNN
@@ -840,10 +840,10 @@ F 3 "" H 6650 750 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L esp32_energy_monitor-rescue:GND-padlock-rescue #PWR027
+L esp32_energy_monitor-rescue:GND-padlock-rescue #PWR045
 U 1 1 5CF193F3
 P 7250 1400
-F 0 "#PWR027" H 7250 1150 50  0001 C CNN
+F 0 "#PWR045" H 7250 1150 50  0001 C CNN
 F 1 "GND" H 7250 1250 50  0000 C CNN
 F 2 "" H 7250 1400 50  0001 C CNN
 F 3 "" H 7250 1400 50  0001 C CNN
@@ -851,10 +851,10 @@ F 3 "" H 7250 1400 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L esp32_energy_monitor-rescue:GND-padlock-rescue #PWR028
+L esp32_energy_monitor-rescue:GND-padlock-rescue #PWR025
 U 1 1 5CF19668
 P 4950 1850
-F 0 "#PWR028" H 4950 1600 50  0001 C CNN
+F 0 "#PWR025" H 4950 1600 50  0001 C CNN
 F 1 "GND" H 4950 1700 50  0000 C CNN
 F 2 "" H 4950 1850 50  0001 C CNN
 F 3 "" H 4950 1850 50  0001 C CNN
@@ -862,10 +862,10 @@ F 3 "" H 4950 1850 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L esp32_energy_monitor-rescue:GND-padlock-rescue #PWR029
+L esp32_energy_monitor-rescue:GND-padlock-rescue #PWR042
 U 1 1 5CF19C28
 P 6850 1800
-F 0 "#PWR029" H 6850 1550 50  0001 C CNN
+F 0 "#PWR042" H 6850 1550 50  0001 C CNN
 F 1 "GND" H 6850 1650 50  0000 C CNN
 F 2 "" H 6850 1800 50  0001 C CNN
 F 3 "" H 6850 1800 50  0001 C CNN
@@ -873,10 +873,10 @@ F 3 "" H 6850 1800 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L esp32_energy_monitor-rescue:GND-padlock-rescue #PWR030
+L esp32_energy_monitor-rescue:GND-padlock-rescue #PWR039
 U 1 1 5CF19DE3
 P 6700 1100
-F 0 "#PWR030" H 6700 850 50  0001 C CNN
+F 0 "#PWR039" H 6700 850 50  0001 C CNN
 F 1 "GND" H 6700 950 50  0000 C CNN
 F 2 "" H 6700 1100 50  0001 C CNN
 F 3 "" H 6700 1100 50  0001 C CNN
@@ -884,10 +884,10 @@ F 3 "" H 6700 1100 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L esp32_energy_monitor-rescue:GND-padlock-rescue #PWR031
+L esp32_energy_monitor-rescue:GND-padlock-rescue #PWR027
 U 1 1 5CF19FCB
 P 5100 1200
-F 0 "#PWR031" H 5100 950 50  0001 C CNN
+F 0 "#PWR027" H 5100 950 50  0001 C CNN
 F 1 "GND" H 5100 1050 50  0000 C CNN
 F 2 "" H 5100 1200 50  0001 C CNN
 F 3 "" H 5100 1200 50  0001 C CNN
@@ -895,10 +895,10 @@ F 3 "" H 5100 1200 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L esp32_energy_monitor-rescue:GND-padlock-rescue #PWR032
+L esp32_energy_monitor-rescue:GND-padlock-rescue #PWR030
 U 1 1 5CF1A61F
 P 5850 1950
-F 0 "#PWR032" H 5850 1700 50  0001 C CNN
+F 0 "#PWR030" H 5850 1700 50  0001 C CNN
 F 1 "GND" H 5850 1800 50  0000 C CNN
 F 2 "" H 5850 1950 50  0001 C CNN
 F 3 "" H 5850 1950 50  0001 C CNN
@@ -906,10 +906,10 @@ F 3 "" H 5850 1950 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L esp32_energy_monitor-rescue:GND-padlock-rescue #PWR033
+L esp32_energy_monitor-rescue:GND-padlock-rescue #PWR049
 U 1 1 5CF1A6AE
 P 9300 6150
-F 0 "#PWR033" H 9300 5900 50  0001 C CNN
+F 0 "#PWR049" H 9300 5900 50  0001 C CNN
 F 1 "GND" H 9300 6000 50  0000 C CNN
 F 2 "" H 9300 6150 50  0001 C CNN
 F 3 "" H 9300 6150 50  0001 C CNN
@@ -954,10 +954,10 @@ F 9 "CSD16406Q3" H 10500 2850 50  0001 L CNN "Manufacturer_Part_Number"
 	1    0    0    -1  
 $EndComp
 $Comp
-L esp32_energy_monitor-rescue:R-padlock-rescue R13
+L esp32_energy_monitor-rescue:R-padlock-rescue R17
 U 1 1 5CF1DAE9
 P 8550 2350
-F 0 "R13" V 8630 2350 50  0000 C CNN
+F 0 "R17" V 8630 2350 50  0000 C CNN
 F 1 "330R" V 8450 2350 50  0000 C CNN
 F 2 "Resistors_SMD:R_0603" V 8480 2350 50  0001 C CNN
 F 3 "" H 8550 2350 50  0001 C CNN
@@ -965,10 +965,10 @@ F 3 "" H 8550 2350 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L esp32_energy_monitor-rescue:C-padlock-rescue C18
+L esp32_energy_monitor-rescue:C-padlock-rescue C20
 U 1 1 5CF1DBBC
 P 9050 2350
-F 0 "C18" V 9075 2450 50  0000 L CNN
+F 0 "C20" V 9075 2450 50  0000 L CNN
 F 1 "0.1uF" V 9200 2300 50  0000 L CNN
 F 2 "Capacitors_SMD:C_0603" H 9088 2200 50  0001 C CNN
 F 3 "" H 9050 2350 50  0001 C CNN
@@ -976,10 +976,10 @@ F 3 "" H 9050 2350 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L esp32_energy_monitor-rescue:R-padlock-rescue R12
+L esp32_energy_monitor-rescue:R-padlock-rescue R16
 U 1 1 5CF1DE47
 P 8350 2950
-F 0 "R12" V 8430 2950 50  0000 C CNN
+F 0 "R16" V 8430 2950 50  0000 C CNN
 F 1 "2.2k" V 8250 2950 50  0000 C CNN
 F 2 "Resistors_SMD:R_0603" V 8280 2950 50  0001 C CNN
 F 3 "" H 8350 2950 50  0001 C CNN
@@ -987,10 +987,10 @@ F 3 "" H 8350 2950 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L esp32_energy_monitor-rescue:GND-padlock-rescue #PWR034
+L esp32_energy_monitor-rescue:GND-padlock-rescue #PWR050
 U 1 1 5CF1F36B
 P 9350 2350
-F 0 "#PWR034" H 9350 2100 50  0001 C CNN
+F 0 "#PWR050" H 9350 2100 50  0001 C CNN
 F 1 "GND" H 9350 2200 50  0000 C CNN
 F 2 "" H 9350 2350 50  0001 C CNN
 F 3 "" H 9350 2350 50  0001 C CNN
@@ -998,10 +998,10 @@ F 3 "" H 9350 2350 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L esp32_energy_monitor-rescue:GND-padlock-rescue #PWR035
+L esp32_energy_monitor-rescue:GND-padlock-rescue #PWR048
 U 1 1 5CF1F40C
 P 8800 3350
-F 0 "#PWR035" H 8800 3100 50  0001 C CNN
+F 0 "#PWR048" H 8800 3100 50  0001 C CNN
 F 1 "GND" H 8800 3200 50  0000 C CNN
 F 2 "" H 8800 3350 50  0001 C CNN
 F 3 "" H 8800 3350 50  0001 C CNN
@@ -1013,10 +1013,10 @@ VBAT_+
 Text GLabel 8200 3550 0    60   Input ~ 0
 VBAT_-
 $Comp
-L esp32_energy_monitor-rescue:R-padlock-rescue R14
+L esp32_energy_monitor-rescue:R-padlock-rescue R19
 U 1 1 5CF20033
 P 9100 3750
-F 0 "R14" V 9180 3750 50  0000 C CNN
+F 0 "R19" V 9180 3750 50  0000 C CNN
 F 1 "5M" H 9000 3750 50  0000 C CNN
 F 2 "Resistors_SMD:R_0603" V 9030 3750 50  0001 C CNN
 F 3 "" H 9100 3750 50  0001 C CNN
@@ -1024,10 +1024,10 @@ F 3 "" H 9100 3750 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L esp32_energy_monitor-rescue:R-padlock-rescue R16
+L esp32_energy_monitor-rescue:R-padlock-rescue R20
 U 1 1 5CF200E6
 P 9550 3100
-F 0 "R16" V 9630 3100 50  0000 C CNN
+F 0 "R20" V 9630 3100 50  0000 C CNN
 F 1 "5M" H 9750 3100 50  0000 C CNN
 F 2 "Resistors_SMD:R_0603" V 9480 3100 50  0001 C CNN
 F 3 "" H 9550 3100 50  0001 C CNN
@@ -1045,25 +1045,25 @@ IO32
 $Comp
 L esp32_energy_monitor-rescue:Conn_01x02-padlock-rescue J3
 U 1 1 5CF250BB
-P 6050 6500
-F 0 "J3" H 6050 6600 50  0000 C CNN
-F 1 "Conn_01x02" H 6050 6300 50  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Straight_1x02_Pitch2.54mm" H 6050 6500 50  0001 C CNN
-F 3 "" H 6050 6500 50  0001 C CNN
-	1    6050 6500
-	1    0    0    -1  
+P 4750 6000
+F 0 "J3" V 4750 6100 50  0000 C CNN
+F 1 "Conn_01x02" V 4850 5950 30  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x02_Pitch2.54mm" H 4750 6000 50  0001 C CNN
+F 3 "" H 4750 6000 50  0001 C CNN
+	1    4750 6000
+	0    1    -1   0   
 $EndComp
-Text Notes 3550 7600 0    60   ~ 0
-ADS1115 - ANALOG DIGITAL CONVERTER
+Text Notes 3525 7650 0    60   ~ 0
+ADS1115\nCIRCUIT
 Text GLabel 5500 3600 0    60   Input ~ 0
 NFC_TX
 Text GLabel 5500 4100 0    60   Input ~ 0
 NFC_RX
 $Comp
-L esp32_energy_monitor-rescue:C-padlock-rescue C20
+L esp32_energy_monitor-rescue:C-padlock-rescue C19
 U 1 1 5CF2A0FB
 P 8700 4650
-F 0 "C20" H 8725 4750 50  0000 L CNN
+F 0 "C19" H 8725 4750 50  0000 L CNN
 F 1 "0.1uF" H 8725 4550 50  0000 L CNN
 F 2 "Capacitors_SMD:C_0603" H 8738 4500 50  0001 C CNN
 F 3 "" H 8700 4650 50  0001 C CNN
@@ -1071,10 +1071,10 @@ F 3 "" H 8700 4650 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L esp32_energy_monitor-rescue:GND-padlock-rescue #PWR043
+L esp32_energy_monitor-rescue:GND-padlock-rescue #PWR046
 U 1 1 5CF2A101
 P 8400 4750
-F 0 "#PWR043" H 8400 4500 50  0001 C CNN
+F 0 "#PWR046" H 8400 4500 50  0001 C CNN
 F 1 "GND" H 8400 4600 50  0000 C CNN
 F 2 "" H 8400 4750 50  0001 C CNN
 F 3 "" H 8400 4750 50  0001 C CNN
@@ -1507,14 +1507,6 @@ Wire Notes Line
 	11200 2200 7700 2200
 Wire Wire Line
 	7100 4700 7300 4700
-Wire Notes Line
-	3450 5800 3450 7700
-Wire Notes Line
-	3450 7700 6350 7700
-Wire Notes Line
-	6350 7700 6350 5800
-Wire Notes Line
-	6350 5800 3450 5800
 Wire Wire Line
 	5500 3600 5700 3600
 Wire Wire Line
@@ -1590,7 +1582,7 @@ L esp32_energy_monitor-rescue:PTS645SM43SMTR92_LFS-padlock-rescue S1
 U 1 1 5CFAB1AF
 P 8700 4300
 F 0 "S1" H 8700 4450 60  0000 C CNN
-F 1 "PTS645SM43SMTR92_LFS" H 8900 4550 60  0000 C CNN
+F 1 "PTS645SM43SMTR92_LFS" H 8675 4525 40  0000 C CNN
 F 2 "digikey-footprints:Switch_Tactile_SMD_6x6mm_PTS645" H 8900 4500 60  0001 L CNN
 F 3 "https://www.ckswitches.com/media/1471/pts645.pdf" H 8900 4600 60  0001 L CNN
 F 4 "CKN9112CT-ND" H 8900 4700 60  0001 L CNN "Digi-Key_PN"
@@ -1700,34 +1692,34 @@ Wire Wire Line
 $Comp
 L esp32_energy_monitor-rescue:MountingHole-Mechanical-padlock-rescue H1
 U 1 1 5D067C0B
-P 6510 6780
-F 0 "H1" H 6610 6826 50  0000 L CNN
-F 1 "M2Hole" H 6610 6735 50  0000 L CNN
-F 2 "Mounting_Holes:MountingHole_2.2mm_M2_DIN965" H 6510 6780 50  0001 C CNN
-F 3 "~" H 6510 6780 50  0001 C CNN
-	1    6510 6780
+P 7110 5980
+F 0 "H1" H 7210 6026 50  0000 L CNN
+F 1 "M2Hole" H 7210 5935 50  0000 L CNN
+F 2 "Mounting_Holes:MountingHole_2.2mm_M2_DIN965" H 7110 5980 50  0001 C CNN
+F 3 "~" H 7110 5980 50  0001 C CNN
+	1    7110 5980
 	1    0    0    -1  
 $EndComp
 $Comp
 L esp32_energy_monitor-rescue:MountingHole-Mechanical-padlock-rescue H2
 U 1 1 5D068C97
-P 6510 6995
-F 0 "H2" H 6610 7041 50  0000 L CNN
-F 1 "M2Hole" H 6610 6950 50  0000 L CNN
-F 2 "Mounting_Holes:MountingHole_2.2mm_M2_DIN965" H 6510 6995 50  0001 C CNN
-F 3 "~" H 6510 6995 50  0001 C CNN
-	1    6510 6995
+P 7110 6195
+F 0 "H2" H 7210 6241 50  0000 L CNN
+F 1 "M2Hole" H 7210 6150 50  0000 L CNN
+F 2 "Mounting_Holes:MountingHole_2.2mm_M2_DIN965" H 7110 6195 50  0001 C CNN
+F 3 "~" H 7110 6195 50  0001 C CNN
+	1    7110 6195
 	1    0    0    -1  
 $EndComp
 $Comp
 L esp32_energy_monitor-rescue:MountingHole-Mechanical-padlock-rescue H3
 U 1 1 5D069074
-P 6515 7195
-F 0 "H3" H 6615 7241 50  0000 L CNN
-F 1 "M2Hole" H 6615 7150 50  0000 L CNN
-F 2 "Mounting_Holes:MountingHole_2.2mm_M2_DIN965" H 6515 7195 50  0001 C CNN
-F 3 "~" H 6515 7195 50  0001 C CNN
-	1    6515 7195
+P 7565 5995
+F 0 "H3" H 7665 6041 50  0000 L CNN
+F 1 "M2Hole" H 7665 5950 50  0000 L CNN
+F 2 "Mounting_Holes:MountingHole_2.2mm_M2_DIN965" H 7565 5995 50  0001 C CNN
+F 3 "~" H 7565 5995 50  0001 C CNN
+	1    7565 5995
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -1786,10 +1778,10 @@ Wire Wire Line
 Wire Wire Line
 	2050 1550 2050 1400
 $Comp
-L esp32_energy_monitor-rescue:GND-padlock-rescue #PWR06
+L esp32_energy_monitor-rescue:GND-padlock-rescue #PWR011
 U 1 1 5CEEB297
 P 2050 2200
-F 0 "#PWR06" H 2050 1950 50  0001 C CNN
+F 0 "#PWR011" H 2050 1950 50  0001 C CNN
 F 1 "GND" H 2050 2050 50  0000 C CNN
 F 2 "" H 2050 2200 50  0001 C CNN
 F 3 "" H 2050 2200 50  0001 C CNN
@@ -1816,10 +1808,10 @@ F 11 "" H 2500 650 50  0001 L CNN "RS Price/Stock"
 	0    -1   1    0   
 $EndComp
 $Comp
-L esp32_energy_monitor-rescue:+5V-padlock-rescue #PWR09
+L esp32_energy_monitor-rescue:+5V-padlock-rescue #PWR012
 U 1 1 5CEECFED
 P 2200 850
-F 0 "#PWR09" H 2200 700 50  0001 C CNN
+F 0 "#PWR012" H 2200 700 50  0001 C CNN
 F 1 "+5V" H 2200 990 50  0000 C CNN
 F 2 "" H 2200 850 50  0001 C CNN
 F 3 "" H 2200 850 50  0001 C CNN
@@ -1848,10 +1840,10 @@ Wire Wire Line
 Wire Wire Line
 	2350 2200 2350 2150
 $Comp
-L esp32_energy_monitor-rescue:GND-padlock-rescue #PWR012
+L esp32_energy_monitor-rescue:GND-padlock-rescue #PWR013
 U 1 1 5CEEDD76
 P 2350 2200
-F 0 "#PWR012" H 2350 1950 50  0001 C CNN
+F 0 "#PWR013" H 2350 1950 50  0001 C CNN
 F 1 "GND" H 2350 2050 50  0000 C CNN
 F 2 "" H 2350 2200 50  0001 C CNN
 F 3 "" H 2350 2200 50  0001 C CNN
@@ -1878,10 +1870,10 @@ F 11 "" H 2800 650 50  0001 L CNN "RS Price/Stock"
 	0    -1   1    0   
 $EndComp
 $Comp
-L esp32_energy_monitor-rescue:GND-padlock-rescue #PWR05
+L esp32_energy_monitor-rescue:GND-padlock-rescue #PWR08
 U 1 1 5CEEB262
 P 1700 2200
-F 0 "#PWR05" H 1700 1950 50  0001 C CNN
+F 0 "#PWR08" H 1700 1950 50  0001 C CNN
 F 1 "GND" H 1700 2050 50  0000 C CNN
 F 2 "" H 1700 2200 50  0001 C CNN
 F 3 "" H 1700 2200 50  0001 C CNN
@@ -1924,25 +1916,14 @@ Connection ~ 1700 1200
 Wire Wire Line
 	1150 1200 1700 1200
 $Comp
-L esp32_energy_monitor-rescue:Conn_01x02-padlock-rescue J?
-U 1 1 5F0142E0
-P 6050 6900
-F 0 "J?" H 6050 7000 50  0000 C CNN
-F 1 "Conn_01x02" H 6050 6700 50  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Straight_1x02_Pitch2.54mm" H 6050 6900 50  0001 C CNN
-F 3 "" H 6050 6900 50  0001 C CNN
-	1    6050 6900
-	1    0    0    -1  
-$EndComp
-$Comp
 L esp32_energy_monitor-rescue:MountingHole-Mechanical-padlock-rescue H4
 U 1 1 5F01515D
-P 6515 7395
-F 0 "H4" H 6615 7441 50  0000 L CNN
-F 1 "M2Hole" H 6615 7350 50  0000 L CNN
-F 2 "Mounting_Holes:MountingHole_2.2mm_M2_DIN965" H 6515 7395 50  0001 C CNN
-F 3 "~" H 6515 7395 50  0001 C CNN
-	1    6515 7395
+P 7565 6195
+F 0 "H4" H 7665 6241 50  0000 L CNN
+F 1 "M2Hole" H 7665 6150 50  0000 L CNN
+F 2 "Mounting_Holes:MountingHole_2.2mm_M2_DIN965" H 7565 6195 50  0001 C CNN
+F 3 "~" H 7565 6195 50  0001 C CNN
+	1    7565 6195
 	1    0    0    -1  
 $EndComp
 Wire Notes Line
@@ -1953,10 +1934,8 @@ Wire Notes Line
 	3450 5650 3450 2200
 Wire Notes Line
 	3450 2200 7600 2200
-Text Notes 5500 6350 0    60   ~ 0
-Current Sensor 1
-Text Notes 5500 7250 0    60   ~ 0
-Current Sensor 2
+Text Notes 4700 6700 0    40   ~ 0
+Current \nSensor 2
 Wire Notes Line
 	3350 7600 3350 2700
 Wire Notes Line
@@ -1983,4 +1962,525 @@ Wire Notes Line
 	2850 2650 2850 500 
 Wire Notes Line
 	500  500  2850 500 
+$Comp
+L Analog_ADC:ADS1115IDGS U1
+U 1 1 5EF3A403
+P 5550 6550
+F 0 "U1" H 5325 6175 50  0000 C CNN
+F 1 "ADS1115IDGS" H 5750 6200 30  0000 C CNN
+F 2 "Package_SO:TSSOP-10_3x3mm_P0.5mm" H 5550 6050 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/ads1113.pdf" H 5500 5650 50  0001 C CNN
+	1    5550 6550
+	1    0    0    -1  
+$EndComp
+$Comp
+L esp32_energy_monitor-rescue:+3.3V-padlock-rescue #PWR033
+U 1 1 5EF3B824
+P 6200 7000
+F 0 "#PWR033" H 6200 6850 50  0001 C CNN
+F 1 "+3.3V" H 6200 7140 50  0000 C CNN
+F 2 "" H 6200 7000 50  0001 C CNN
+F 3 "" H 6200 7000 50  0001 C CNN
+	1    6200 7000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:Ferrite_Bead_Small FB4
+U 1 1 5EF3CA85
+P 6525 7050
+F 0 "FB4" V 6475 6900 50  0000 L CNN
+F 1 "MMZ2012Y152BT000" V 6625 6950 30  0000 L CNN
+F 2 "Inductor_SMD:L_0805_2012Metric" V 6455 7050 50  0001 C CNN
+F 3 "~" H 6525 7050 50  0001 C CNN
+	1    6525 7050
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GNDD #PWR041
+U 1 1 5EF410D0
+P 6825 7500
+F 0 "#PWR041" H 6825 7250 50  0001 C CNN
+F 1 "GNDD" H 6829 7345 50  0000 C CNN
+F 2 "" H 6825 7500 50  0001 C CNN
+F 3 "" H 6825 7500 50  0001 C CNN
+	1    6825 7500
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GNDD #PWR029
+U 1 1 5EF43FBA
+P 5550 7000
+F 0 "#PWR029" H 5550 6750 50  0001 C CNN
+F 1 "GNDD" H 5554 6845 50  0000 C CNN
+F 2 "" H 5550 7000 50  0001 C CNN
+F 3 "" H 5550 7000 50  0001 C CNN
+	1    5550 7000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5550 6950 5550 7000
+Wire Wire Line
+	6825 7500 6825 7450
+$Comp
+L esp32_energy_monitor-rescue:GND-padlock-rescue #PWR034
+U 1 1 5EF6874A
+P 6200 7500
+F 0 "#PWR034" H 6200 7250 50  0001 C CNN
+F 1 "GND" H 6200 7350 50  0000 C CNN
+F 2 "" H 6200 7500 50  0001 C CNN
+F 3 "" H 6200 7500 50  0001 C CNN
+	1    6200 7500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6825 7450 6600 7450
+$Comp
+L Device:Ferrite_Bead_Small FB3
+U 1 1 5EF3E12E
+P 6500 7450
+F 0 "FB3" V 6550 7500 50  0000 L CNN
+F 1 "MMZ2012Y152BT000" V 6400 7175 30  0000 L CNN
+F 2 "Inductor_SMD:L_0805_2012Metric" V 6430 7450 50  0001 C CNN
+F 3 "~" H 6500 7450 50  0001 C CNN
+	1    6500 7450
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	6200 7500 6200 7450
+Wire Wire Line
+	6200 7450 6400 7450
+Wire Wire Line
+	6200 7000 6200 7050
+Wire Wire Line
+	6200 7050 6425 7050
+$Comp
+L power:+3.3VADC #PWR040
+U 1 1 5EFD84FC
+P 6825 7000
+F 0 "#PWR040" H 6975 6950 50  0001 C CNN
+F 1 "+3.3VADC" H 6725 7150 50  0000 C CNN
+F 2 "" H 6825 7000 50  0001 C CNN
+F 3 "" H 6825 7000 50  0001 C CNN
+	1    6825 7000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6825 7000 6825 7050
+Wire Wire Line
+	6825 7050 6625 7050
+$Comp
+L power:+3.3VADC #PWR028
+U 1 1 5EFECAFE
+P 5550 5900
+F 0 "#PWR028" H 5700 5850 50  0001 C CNN
+F 1 "+3.3VADC" H 5570 6028 30  0000 C CNN
+F 2 "" H 5550 5900 50  0001 C CNN
+F 3 "" H 5550 5900 50  0001 C CNN
+	1    5550 5900
+	1    0    0    -1  
+$EndComp
+$Comp
+L esp32_energy_monitor-rescue:R-padlock-rescue R12
+U 1 1 5F0DC3D2
+P 5975 6150
+F 0 "R12" H 5925 6000 50  0000 C CNN
+F 1 "10k" V 5875 6150 50  0000 C CNN
+F 2 "Resistors_SMD:R_0603" V 5905 6150 50  0001 C CNN
+F 3 "" H 5975 6150 50  0001 C CNN
+	1    5975 6150
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	5975 6300 5975 6350
+Wire Wire Line
+	5975 6350 5950 6350
+$Comp
+L power:+3.3VADC #PWR031
+U 1 1 5F103EB9
+P 5975 5950
+F 0 "#PWR031" H 6125 5900 50  0001 C CNN
+F 1 "+3.3VADC" H 5975 6050 30  0000 C CNN
+F 2 "" H 5975 5950 50  0001 C CNN
+F 3 "" H 5975 5950 50  0001 C CNN
+	1    5975 5950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5975 5950 5975 6000
+$Comp
+L esp32_energy_monitor-rescue:R-padlock-rescue R14
+U 1 1 5F117E90
+P 6300 6150
+F 0 "R14" H 6250 6000 50  0000 C CNN
+F 1 "10k" V 6200 6150 50  0000 C CNN
+F 2 "Resistors_SMD:R_0603" V 6230 6150 50  0001 C CNN
+F 3 "" H 6300 6150 50  0001 C CNN
+	1    6300 6150
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	5950 6550 6300 6550
+Wire Wire Line
+	6300 6550 6300 6300
+$Comp
+L power:+3.3VADC #PWR035
+U 1 1 5F140758
+P 6300 5950
+F 0 "#PWR035" H 6450 5900 50  0001 C CNN
+F 1 "+3.3VADC" H 6300 6050 30  0000 C CNN
+F 2 "" H 6300 5950 50  0001 C CNN
+F 3 "" H 6300 5950 50  0001 C CNN
+	1    6300 5950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6300 6000 6300 5950
+$Comp
+L esp32_energy_monitor-rescue:R-padlock-rescue R15
+U 1 1 5F1691A3
+P 6575 6150
+F 0 "R15" H 6525 6000 50  0000 C CNN
+F 1 "10k" V 6475 6150 50  0000 C CNN
+F 2 "Resistors_SMD:R_0603" V 6505 6150 50  0001 C CNN
+F 3 "" H 6575 6150 50  0001 C CNN
+	1    6575 6150
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:+3.3VADC #PWR037
+U 1 1 5F22D7AC
+P 6575 5950
+F 0 "#PWR037" H 6725 5900 50  0001 C CNN
+F 1 "+3.3VADC" H 6575 6050 30  0000 C CNN
+F 2 "" H 6575 5950 50  0001 C CNN
+F 3 "" H 6575 5950 50  0001 C CNN
+	1    6575 5950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6575 6000 6575 5950
+Wire Wire Line
+	6575 6650 6575 6300
+$Comp
+L esp32_energy_monitor-rescue:R-padlock-rescue R13
+U 1 1 5F3AC4FC
+P 6000 7100
+F 0 "R13" H 6100 7100 50  0000 C CNN
+F 1 "10k" V 5900 7100 50  0000 C CNN
+F 2 "Resistors_SMD:R_0603" V 5930 7100 50  0001 C CNN
+F 3 "" H 6000 7100 50  0001 C CNN
+	1    6000 7100
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	6000 6750 5950 6750
+Text Notes 4600 5850 0    40   ~ 0
+Current \nSensor 1
+$Comp
+L esp32_energy_monitor-rescue:R-padlock-rescue R9
+U 1 1 5F4DA25A
+P 3700 6500
+F 0 "R9" H 3800 6500 50  0000 C CNN
+F 1 "100K/1%" V 3600 6500 30  0000 C CNN
+F 2 "Resistors_SMD:R_0603" V 3630 6500 50  0001 C CNN
+F 3 "" H 3700 6500 50  0001 C CNN
+	1    3700 6500
+	1    0    0    1   
+$EndComp
+$Comp
+L esp32_energy_monitor-rescue:C-padlock-rescue C9
+U 1 1 5F4DAE73
+P 4600 7300
+F 0 "C9" H 4500 7400 50  0000 L CNN
+F 1 "10uF ou 100uF" V 4450 7050 30  0000 L CNN
+F 2 "Capacitors_SMD:C_0603" H 4638 7150 50  0001 C CNN
+F 3 "" H 4600 7300 50  0001 C CNN
+	1    4600 7300
+	-1   0    0    -1  
+$EndComp
+$Comp
+L esp32_energy_monitor-rescue:C-padlock-rescue C6
+U 1 1 5F51DD49
+P 3950 6550
+F 0 "C6" H 3850 6650 50  0000 L CNN
+F 1 "10uF ou 100uF" V 3800 6400 30  0000 L CNN
+F 2 "Capacitors_SMD:C_0603" H 3988 6400 50  0001 C CNN
+F 3 "" H 3950 6550 50  0001 C CNN
+	1    3950 6550
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	3950 6400 3950 6300
+Wire Wire Line
+	3950 6300 3700 6300
+Connection ~ 3700 6300
+Wire Wire Line
+	3700 6300 3700 6350
+$Comp
+L esp32_energy_monitor-rescue:R-padlock-rescue R10
+U 1 1 5F537E44
+P 4350 6850
+F 0 "R10" H 4450 6850 50  0000 C CNN
+F 1 "100K/1%" V 4250 6850 30  0000 C CNN
+F 2 "Resistors_SMD:R_0603" V 4280 6850 50  0001 C CNN
+F 3 "" H 4350 6850 50  0001 C CNN
+	1    4350 6850
+	1    0    0    1   
+$EndComp
+$Comp
+L esp32_energy_monitor-rescue:R-padlock-rescue R11
+U 1 1 5F537E4A
+P 4350 7300
+F 0 "R11" H 4450 7300 50  0000 C CNN
+F 1 "100K/1%" V 4250 7300 30  0000 C CNN
+F 2 "Resistors_SMD:R_0603" V 4280 7300 50  0001 C CNN
+F 3 "" H 4350 7300 50  0001 C CNN
+	1    4350 7300
+	1    0    0    1   
+$EndComp
+Wire Wire Line
+	4350 7000 4350 7100
+Wire Wire Line
+	4600 7100 4350 7100
+Connection ~ 4350 7100
+Wire Wire Line
+	4350 7100 4350 7150
+Wire Wire Line
+	4600 7150 4600 7100
+$Comp
+L power:+3.3VADC #PWR017
+U 1 1 5F605110
+P 3700 5900
+F 0 "#PWR017" H 3850 5850 50  0001 C CNN
+F 1 "+3.3VADC" H 3720 6028 30  0000 C CNN
+F 2 "" H 3700 5900 50  0001 C CNN
+F 3 "" H 3700 5900 50  0001 C CNN
+	1    3700 5900
+	-1   0    0    -1  
+$EndComp
+$Comp
+L power:+3.3VADC #PWR022
+U 1 1 5F61D823
+P 4350 6650
+F 0 "#PWR022" H 4500 6600 50  0001 C CNN
+F 1 "+3.3VADC" H 4350 6750 30  0000 C CNN
+F 2 "" H 4350 6650 50  0001 C CNN
+F 3 "" H 4350 6650 50  0001 C CNN
+	1    4350 6650
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	4350 6650 4350 6700
+Wire Wire Line
+	5150 6550 5050 6550
+$Comp
+L power:GNDD #PWR021
+U 1 1 5F763AE6
+P 3950 6750
+F 0 "#PWR021" H 3950 6500 50  0001 C CNN
+F 1 "GNDD" H 3954 6595 50  0000 C CNN
+F 2 "" H 3950 6750 50  0001 C CNN
+F 3 "" H 3950 6750 50  0001 C CNN
+	1    3950 6750
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	3950 6700 3950 6750
+$Comp
+L power:GNDD #PWR018
+U 1 1 5F8DEE8D
+P 3700 6750
+F 0 "#PWR018" H 3700 6500 50  0001 C CNN
+F 1 "GNDD" H 3704 6595 50  0000 C CNN
+F 2 "" H 3700 6750 50  0001 C CNN
+F 3 "" H 3700 6750 50  0001 C CNN
+	1    3700 6750
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	3700 5900 3700 5950
+Wire Wire Line
+	3700 6250 3700 6300
+$Comp
+L esp32_energy_monitor-rescue:R-padlock-rescue R8
+U 1 1 5F4D9A83
+P 3700 6100
+F 0 "R8" H 3800 6100 50  0000 C CNN
+F 1 "100K/1%" V 3600 6100 30  0000 C CNN
+F 2 "Resistors_SMD:R_0603" V 3630 6100 50  0001 C CNN
+F 3 "" H 3700 6100 50  0001 C CNN
+	1    3700 6100
+	1    0    0    1   
+$EndComp
+Wire Wire Line
+	3700 6750 3700 6650
+$Comp
+L power:GNDD #PWR024
+U 1 1 5FA5E957
+P 4600 7500
+F 0 "#PWR024" H 4600 7250 50  0001 C CNN
+F 1 "GNDD" H 4604 7345 50  0000 C CNN
+F 2 "" H 4600 7500 50  0001 C CNN
+F 3 "" H 4600 7500 50  0001 C CNN
+	1    4600 7500
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	4600 7450 4600 7500
+$Comp
+L power:GNDD #PWR023
+U 1 1 5FA77A3F
+P 4350 7500
+F 0 "#PWR023" H 4350 7250 50  0001 C CNN
+F 1 "GNDD" H 4354 7345 50  0000 C CNN
+F 2 "" H 4350 7500 50  0001 C CNN
+F 3 "" H 4350 7500 50  0001 C CNN
+	1    4350 7500
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	4350 7450 4350 7500
+Wire Wire Line
+	4650 6200 4650 6300
+Wire Wire Line
+	4650 6300 3950 6300
+Connection ~ 3950 6300
+Wire Wire Line
+	4750 6200 4750 6300
+Wire Wire Line
+	5150 6450 5050 6450
+Wire Wire Line
+	5050 6450 5050 6300
+Wire Wire Line
+	5050 6300 4750 6300
+$Comp
+L esp32_energy_monitor-rescue:Conn_01x02-padlock-rescue J4
+U 1 1 5F0142E0
+P 4900 6850
+F 0 "J4" V 4900 6950 50  0000 C CNN
+F 1 "Conn_01x02" V 5000 6800 30  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x02_Pitch2.54mm" H 4900 6850 50  0001 C CNN
+F 3 "" H 4900 6850 50  0001 C CNN
+	1    4900 6850
+	0    1    -1   0   
+$EndComp
+Wire Wire Line
+	5050 6550 5050 7100
+Wire Wire Line
+	5050 7100 4900 7100
+Wire Wire Line
+	4900 7100 4900 7050
+Wire Wire Line
+	4800 7050 4800 7100
+Wire Wire Line
+	4800 7100 4600 7100
+Connection ~ 4600 7100
+Text GLabel 6175 6300 1    40   Input ~ 0
+ALERT-ADS
+Wire Wire Line
+	6175 6300 6175 6350
+Text GLabel 6475 6500 1    40   Input ~ 0
+SCL-ADS
+Wire Wire Line
+	6475 6500 6475 6550
+Text GLabel 6675 6600 1    40   Input ~ 0
+SDA-ADS
+Wire Wire Line
+	5950 6650 6575 6650
+Wire Wire Line
+	6675 6650 6675 6600
+Wire Wire Line
+	6000 6950 6000 6750
+$Comp
+L power:GNDD #PWR032
+U 1 1 6016CD7F
+P 6000 7325
+F 0 "#PWR032" H 6000 7075 50  0001 C CNN
+F 1 "GNDD" H 6004 7170 50  0000 C CNN
+F 2 "" H 6000 7325 50  0001 C CNN
+F 3 "" H 6000 7325 50  0001 C CNN
+	1    6000 7325
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6000 7250 6000 7325
+Text Notes 4900 7375 0    40   ~ 0
+Default I2C Address = 1001000
+Wire Notes Line
+	4875 7300 4875 7400
+Wire Notes Line
+	5900 7300 4875 7300
+Wire Notes Line
+	4875 7400 5900 7400
+Wire Notes Line
+	3450 7750 6950 7750
+Wire Notes Line
+	6950 7750 6950 5700
+Wire Notes Line
+	6950 5700 3450 5700
+Wire Notes Line
+	3450 5700 3450 7750
+$Comp
+L esp32_energy_monitor-rescue:C-padlock-rescue C12
+U 1 1 602A42B5
+P 6200 7250
+F 0 "C12" H 6100 7350 50  0000 L CNN
+F 1 "1uF" H 5975 7250 40  0000 L CNN
+F 2 "Capacitors_SMD:C_0603" H 6238 7100 50  0001 C CNN
+F 3 "" H 6200 7250 50  0001 C CNN
+	1    6200 7250
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	6200 7050 6200 7100
+Connection ~ 6200 7050
+Connection ~ 6200 7450
+Wire Wire Line
+	6200 7450 6200 7400
+$Comp
+L esp32_energy_monitor-rescue:C-padlock-rescue C11
+U 1 1 604267EB
+P 5275 5950
+F 0 "C11" V 5400 5900 50  0000 L CNN
+F 1 "1uF" V 5125 5900 40  0000 L CNN
+F 2 "Capacitors_SMD:C_0603" H 5313 5800 50  0001 C CNN
+F 3 "" H 5275 5950 50  0001 C CNN
+	1    5275 5950
+	0    -1   1    0   
+$EndComp
+$Comp
+L power:GNDD #PWR026
+U 1 1 60427DBB
+P 5075 5975
+F 0 "#PWR026" H 5075 5725 50  0001 C CNN
+F 1 "GNDD" H 5079 5820 50  0000 C CNN
+F 2 "" H 5075 5975 50  0001 C CNN
+F 3 "" H 5075 5975 50  0001 C CNN
+	1    5075 5975
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5125 5950 5075 5950
+Wire Wire Line
+	5075 5950 5075 5975
+Wire Wire Line
+	5425 5950 5550 5950
+Wire Wire Line
+	5550 5900 5550 5950
+Connection ~ 5550 5950
+Wire Wire Line
+	5550 5950 5550 6050
+Wire Notes Line
+	5900 7175 5925 7175
+Wire Notes Line
+	5900 7175 5900 7400
+Wire Wire Line
+	5975 6350 6175 6350
+Connection ~ 5975 6350
+Wire Wire Line
+	6475 6550 6300 6550
+Connection ~ 6300 6550
+Wire Wire Line
+	6675 6650 6575 6650
+Connection ~ 6575 6650
 $EndSCHEMATC
