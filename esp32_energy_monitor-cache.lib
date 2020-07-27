@@ -1,50 +1,50 @@
 EESchema-LIBRARY Version 2.4
 #encoding utf-8
 #
-# Analog_ADC_ADS1115IDGS
+# Connector_Generic_Conn_01x16
 #
-DEF Analog_ADC_ADS1115IDGS U 0 20 Y Y 1 F N
-F0 "U" 100 550 50 H V C CNN
-F1 "Analog_ADC_ADS1115IDGS" 300 450 50 H V C CNN
-F2 "Package_SO:TSSOP-10_3x3mm_P0.5mm" 0 -500 50 H I C CNN
-F3 "" -50 -900 50 H I C CNN
-ALIAS ADS1115IDGS
-$FPLIST
- TSSOP*3x3mm*P0.5mm*
-$ENDFPLIST
-DRAW
-S -300 400 300 -300 0 1 10 f
-X ADDR 1 400 -200 100 L 50 50 1 1 I
-X SCL 10 400 0 100 L 50 50 1 1 I
-X ALERT/RDY 2 400 200 100 L 50 50 1 1 O
-X GND 3 0 -400 100 U 50 50 1 1 W
-X AIN0 4 -400 100 100 R 50 50 1 1 I
-X AIN1 5 -400 0 100 R 50 50 1 1 I
-X AIN2 6 -400 -100 100 R 50 50 1 1 I
-X AIN3 7 -400 -200 100 R 50 50 1 1 I
-X VDD 8 0 500 100 D 50 50 1 1 W
-X SDA 9 400 -100 100 L 50 50 1 1 B
-ENDDRAW
-ENDDEF
-#
-# Device_Ferrite_Bead_Small
-#
-DEF Device_Ferrite_Bead_Small FB 0 0 N Y 1 F N
-F0 "FB" 75 50 50 H V L CNN
-F1 "Device_Ferrite_Bead_Small" 75 -50 50 H V L CNN
-F2 "" -70 0 50 V I C CNN
+DEF Connector_Generic_Conn_01x16 J 0 40 Y N 1 F N
+F0 "J" 0 800 50 H V C CNN
+F1 "Connector_Generic_Conn_01x16" 0 -900 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
- Inductor_*
- L_*
- *Ferrite*
+ Connector*:*_1x??_*
 $ENDFPLIST
 DRAW
-P 2 0 1 0 0 -50 0 -31 N
-P 2 0 1 0 0 35 0 51 N
-P 5 0 1 0 -72 11 -44 59 72 -8 44 -56 -72 11 N
-X ~ 1 0 100 50 D 50 50 1 1 P
-X ~ 2 0 -100 50 U 50 50 1 1 P
+S -50 -795 0 -805 1 1 6 N
+S -50 -695 0 -705 1 1 6 N
+S -50 -595 0 -605 1 1 6 N
+S -50 -495 0 -505 1 1 6 N
+S -50 -395 0 -405 1 1 6 N
+S -50 -295 0 -305 1 1 6 N
+S -50 -195 0 -205 1 1 6 N
+S -50 -95 0 -105 1 1 6 N
+S -50 5 0 -5 1 1 6 N
+S -50 105 0 95 1 1 6 N
+S -50 205 0 195 1 1 6 N
+S -50 305 0 295 1 1 6 N
+S -50 405 0 395 1 1 6 N
+S -50 505 0 495 1 1 6 N
+S -50 605 0 595 1 1 6 N
+S -50 705 0 695 1 1 6 N
+S -50 750 50 -850 1 1 10 f
+X Pin_1 1 -200 700 150 R 50 50 1 1 P
+X Pin_10 10 -200 -200 150 R 50 50 1 1 P
+X Pin_11 11 -200 -300 150 R 50 50 1 1 P
+X Pin_12 12 -200 -400 150 R 50 50 1 1 P
+X Pin_13 13 -200 -500 150 R 50 50 1 1 P
+X Pin_14 14 -200 -600 150 R 50 50 1 1 P
+X Pin_15 15 -200 -700 150 R 50 50 1 1 P
+X Pin_16 16 -200 -800 150 R 50 50 1 1 P
+X Pin_2 2 -200 600 150 R 50 50 1 1 P
+X Pin_3 3 -200 500 150 R 50 50 1 1 P
+X Pin_4 4 -200 400 150 R 50 50 1 1 P
+X Pin_5 5 -200 300 150 R 50 50 1 1 P
+X Pin_6 6 -200 200 150 R 50 50 1 1 P
+X Pin_7 7 -200 100 150 R 50 50 1 1 P
+X Pin_8 8 -200 0 150 R 50 50 1 1 P
+X Pin_9 9 -200 -100 150 R 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
@@ -75,58 +75,6 @@ P 2 0 1 0 -30 50 0 100 N
 P 2 0 1 0 0 0 0 100 N
 P 2 0 1 0 0 100 30 50 N
 X +5V 1 0 0 0 U 50 50 1 1 W N
-ENDDRAW
-ENDDEF
-#
-# esp32_energy_monitor-rescue_BAT760-7-padlock-rescue
-#
-DEF esp32_energy_monitor-rescue_BAT760-7-padlock-rescue D 0 30 Y Y 1 F N
-F0 "D" 500 350 50 H V L CNN
-F1 "esp32_energy_monitor-rescue_BAT760-7-padlock-rescue" 500 250 50 H V L CNN
-F2 "SOD2513X120N" 500 150 50 H I L CNN
-F3 "https://componentsearchengine.com/Datasheets/1/BAT760-7.pdf" 500 50 50 H I L CNN
-F4 "Diode Schottky 30V 1A 2Pin SOD323 Diodes Inc BAT760-7, SMT Schottky Diode, 30V 1A, 2-Pin SOD-323" 500 -50 50 H I L CNN "Description"
-F5 "1.2" 500 -150 50 H I L CNN "Height"
-F6 "621-BAT760-7" 500 -250 50 H I L CNN "Mouser Part Number"
-F7 "https://www.mouser.com/Search/Refine.aspx?Keyword=621-BAT760-7" 500 -350 50 H I L CNN "Mouser Price/Stock"
-F8 "Diodes Inc." 500 -450 50 H I L CNN "Manufacturer_Name"
-F9 "BAT760-7" 500 -550 50 H I L CNN "Manufacturer_Part_Number"
-DRAW
-P 2 0 1 6 200 0 300 0 N
-P 2 0 1 6 300 100 300 -100 N
-P 2 0 1 6 500 0 600 0 N
-P 3 0 1 6 300 -100 260 -100 260 -60 N
-P 3 0 1 6 300 100 340 100 340 60 N
-P 4 0 1 6 300 0 500 100 500 -100 300 0 N
-X ~ 1 100 0 100 R 50 50 0 0 B
-X ~ 2 700 0 100 L 50 50 0 0 B
-ENDDRAW
-ENDDEF
-#
-# esp32_energy_monitor-rescue_BQ29700DSET-padlock-rescue
-#
-DEF esp32_energy_monitor-rescue_BQ29700DSET-padlock-rescue U 0 40 Y Y 1 F N
-F0 "U" -100 140 60 H V R CNN
-F1 "esp32_energy_monitor-rescue_BQ29700DSET-padlock-rescue" 20 -350 60 H V L CNN
-F2 "digikey-footprints:WFDFN-6_1.5x1.5mm" 200 200 60 H I L CNN
-F3 "http://www.ti.com/general/docs/suppproductinfo.tsp?distId=10&gotoUrl=http%3A%2F%2Fwww.ti.com%2Flit%2Fgpn%2Fbq2971" 200 300 60 H I L CNN
-F4 "296-37746-1-ND" 200 400 60 H I L CNN "Digi-Key_PN"
-F5 "BQ29700DSET" 200 500 60 H I L CNN "MPN"
-F6 "Integrated Circuits (ICs)" 200 600 60 H I L CNN "Category"
-F7 "PMIC - Battery Management" 200 700 60 H I L CNN "Family"
-F8 "http://www.ti.com/general/docs/suppproductinfo.tsp?distId=10&gotoUrl=http%3A%2F%2Fwww.ti.com%2Flit%2Fgpn%2Fbq2971" 200 800 60 H I L CNN "DK_Datasheet_Link"
-F9 "/product-detail/en/texas-instruments/BQ29700DSET/296-37746-1-ND/4840671" 200 900 60 H I L CNN "DK_Detail_Page"
-F10 "IC LITHIUM BATT PROTECT 6-SON" 200 1000 60 H I L CNN "Description"
-F11 "Texas Instruments" 200 1100 60 H I L CNN "Manufacturer"
-F12 "Active" 200 1200 60 H I L CNN "Status"
-DRAW
-S -200 100 300 -300 0 1 0 f
-X NC 1 0 -200 100 R 50 50 1 1 N N
-X COUT 2 400 0 100 L 50 50 1 1 O
-X DOUT 3 400 -100 100 L 50 50 1 1 O
-X VSS 4 0 -400 100 U 50 50 1 1 W
-X BAT 5 0 200 100 D 50 50 1 1 W
-X V- 6 -300 0 100 R 50 50 1 1 I
 ENDDRAW
 ENDDEF
 #
@@ -195,31 +143,6 @@ X RSTB 9 700 -1400 200 U 50 50 0 0 B
 ENDDRAW
 ENDDEF
 #
-# esp32_energy_monitor-rescue_CSD16406Q3-padlock-rescue
-#
-DEF esp32_energy_monitor-rescue_CSD16406Q3-padlock-rescue Q 0 30 Y Y 1 F N
-F0 "Q" 850 300 50 H V L CNN
-F1 "esp32_energy_monitor-rescue_CSD16406Q3-padlock-rescue" 850 200 50 H V L CNN
-F2 "DQG_VSON-CLIP" 850 100 50 H I L CNN
-F3 "http://www.ti.com/lit/gpn/csd16406q3" 850 0 50 H I L CNN
-F4 "N-Channel NexFET&#153; Power MOSFET" 850 -100 50 H I L CNN "Description"
-F5 "595-CSD16406Q3" 850 -300 50 H I L CNN "Mouser Part Number"
-F6 "https://www.mouser.com/Search/Refine.aspx?Keyword=595-CSD16406Q3" 850 -400 50 H I L CNN "Mouser Price/Stock"
-F7 "Texas Instruments" 850 -500 50 H I L CNN "Manufacturer_Name"
-F8 "CSD16406Q3" 850 -600 50 H I L CNN "Manufacturer_Part_Number"
-DRAW
-P 5 0 1 6 200 100 800 100 800 -400 200 -400 200 100 N
-X S_1 1 0 0 200 R 50 50 0 0 B
-X S_2 2 0 -100 200 R 50 50 0 0 B
-X S_3 3 0 -200 200 R 50 50 0 0 B
-X G 4 0 -300 200 R 50 50 0 0 B
-X D_1 5 1000 0 200 L 50 50 0 0 B
-X D_2 5 1000 -100 200 L 50 50 0 0 B
-X D_3 5 1000 -200 200 L 50 50 0 0 B
-X D_4 5 1000 -300 200 L 50 50 0 0 B
-ENDDRAW
-ENDDEF
-#
 # esp32_energy_monitor-rescue_Conn_01x02-padlock-rescue
 #
 DEF esp32_energy_monitor-rescue_Conn_01x02-padlock-rescue J 0 40 Y N 1 F N
@@ -241,32 +164,6 @@ S -50 5 0 -5 1 1 6 N
 S -50 50 50 -150 1 1 10 f
 X Pin_1 1 -200 0 150 R 50 50 1 1 P
 X Pin_2 2 -200 -100 150 R 50 50 1 1 P
-ENDDRAW
-ENDDEF
-#
-# esp32_energy_monitor-rescue_Conn_01x03-padlock-rescue
-#
-DEF esp32_energy_monitor-rescue_Conn_01x03-padlock-rescue J 0 40 Y N 1 F N
-F0 "J" 0 200 50 H V C CNN
-F1 "esp32_energy_monitor-rescue_Conn_01x03-padlock-rescue" 0 -200 50 H V C CNN
-F2 "" 0 0 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
-$FPLIST
- Connector*:*_??x*mm*
- Connector*:*1x??x*mm*
- Pin?Header?Straight?1X*
- Pin?Header?Angled?1X*
- Socket?Strip?Straight?1X*
- Socket?Strip?Angled?1X*
-$ENDFPLIST
-DRAW
-S -50 -95 0 -105 1 1 6 N
-S -50 5 0 -5 1 1 6 N
-S -50 105 0 95 1 1 6 N
-S -50 150 50 -150 1 1 10 f
-X Pin_1 1 -200 100 150 R 50 50 1 1 P
-X Pin_2 2 -200 0 150 R 50 50 1 1 P
-X Pin_3 3 -200 -100 150 R 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
@@ -400,52 +297,6 @@ X 2 2 0 -150 50 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# esp32_energy_monitor-rescue_LED-padlock-rescue
-#
-DEF esp32_energy_monitor-rescue_LED-padlock-rescue D 0 40 Y N 1 F N
-F0 "D" 0 100 50 H V C CNN
-F1 "esp32_energy_monitor-rescue_LED-padlock-rescue" 0 -100 50 H V C CNN
-F2 "" 0 0 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
-$FPLIST
- LED*
-$ENDFPLIST
-DRAW
-P 2 0 1 8 -50 -50 -50 50 N
-P 2 0 1 0 -50 0 50 0 N
-P 4 0 1 8 50 -50 50 50 -50 0 50 -50 N
-P 5 0 1 0 -120 -30 -180 -90 -150 -90 -180 -90 -180 -60 N
-P 5 0 1 0 -70 -30 -130 -90 -100 -90 -130 -90 -130 -60 N
-X K 1 -150 0 100 R 50 50 1 1 P
-X A 2 150 0 100 L 50 50 1 1 P
-ENDDRAW
-ENDDEF
-#
-# esp32_energy_monitor-rescue_MCP73830T-2AAI_MYY-padlock-rescue
-#
-DEF esp32_energy_monitor-rescue_MCP73830T-2AAI_MYY-padlock-rescue IC 0 30 Y Y 1 F N
-F0 "IC" 1050 300 50 H V L CNN
-F1 "esp32_energy_monitor-rescue_MCP73830T-2AAI_MYY-padlock-rescue" 1050 200 50 H V L CNN
-F2 "SON50P200X200X80-7N-D" 1050 100 50 H I L CNN
-F3 "https://componentsearchengine.com/Datasheets/1/MCP73830T-2AAI_MYY.pdf" 1050 0 50 H I L CNN
-F4 "Battery Management 1A LI-ION BATTERY CHARGE MGNT CNTRLR" 1050 -100 50 H I L CNN "Description"
-F5 "0.8" 1050 -200 50 H I L CNN "Height"
-F6 "579-MCP73830T2AAIMYY" 1050 -300 50 H I L CNN "Mouser Part Number"
-F7 "https://www.mouser.com/Search/Refine.aspx?Keyword=579-MCP73830T2AAIMYY" 1050 -400 50 H I L CNN "Mouser Price/Stock"
-F8 "Microchip" 1050 -500 50 H I L CNN "Manufacturer_Name"
-F9 "MCP73830T-2AAI/MYY" 1050 -600 50 H I L CNN "Manufacturer_Part_Number"
-DRAW
-P 5 0 1 6 200 100 1000 100 1000 -500 200 -500 200 100 N
-X VSS 1 0 0 200 R 50 50 0 0 B
-X STAT 2 0 -100 200 R 50 50 0 0 B
-X VBAT 3 0 -200 200 R 50 50 0 0 B
-X VDD 4 1200 -200 200 L 50 50 0 0 B
-X ~CE 5 1200 -100 200 L 50 50 0 0 B
-X PROG 6 1200 0 200 L 50 50 0 0 B
-X EP 7 600 -700 200 U 50 50 0 0 B
-ENDDRAW
-ENDDEF
-#
 # esp32_energy_monitor-rescue_MPZ1608S221ATA00-padlock-rescue
 #
 DEF esp32_energy_monitor-rescue_MPZ1608S221ATA00-padlock-rescue FB 0 40 Y Y 1 F N
@@ -486,39 +337,6 @@ C 0 0 50 0 1 50 N
 ENDDRAW
 ENDDEF
 #
-# esp32_energy_monitor-rescue_PTS645SM43SMTR92_LFS-padlock-rescue
-#
-DEF esp32_energy_monitor-rescue_PTS645SM43SMTR92_LFS-padlock-rescue S 0 40 Y Y 1 F N
-F0 "S" 0 200 60 H V C CNN
-F1 "esp32_energy_monitor-rescue_PTS645SM43SMTR92_LFS-padlock-rescue" 0 -210 60 H V C CNN
-F2 "digikey-footprints:Switch_Tactile_SMD_6x6mm_PTS645" 200 200 60 H I L CNN
-F3 "https://www.ckswitches.com/media/1471/pts645.pdf" 200 300 60 H I L CNN
-F4 "CKN9112CT-ND" 200 400 60 H I L CNN "Digi-Key_PN"
-F5 "PTS645SM43SMTR92 LFS" 200 500 60 H I L CNN "MPN"
-F6 "Switches" 200 600 60 H I L CNN "Category"
-F7 "Tactile Switches" 200 700 60 H I L CNN "Family"
-F8 "https://www.ckswitches.com/media/1471/pts645.pdf" 200 800 60 H I L CNN "DK_Datasheet_Link"
-F9 "/product-detail/en/c-k/PTS645SM43SMTR92-LFS/CKN9112CT-ND/1146934" 200 900 60 H I L CNN "DK_Detail_Page"
-F10 "SWITCH TACTILE SPST-NO 0.05A 12V" 200 1000 60 H I L CNN "Description"
-F11 "C&K" 200 1100 60 H I L CNN "Manufacturer"
-F12 "Active" 200 1200 60 H I L CNN "Status"
-DRAW
-C -60 0 10 0 1 0 N
-C 60 0 10 0 1 0 N
-P 2 0 1 0 -100 100 -100 -100 N
-P 2 0 1 0 -70 0 -100 0 N
-P 2 0 1 0 -70 50 70 50 N
-P 2 0 1 0 100 -100 100 100 N
-P 2 0 1 0 100 0 70 0 N
-P 2 1 1 0 -40 110 35 110 N
-P 2 1 1 0 0 110 0 50 N
-X ~ 1 -200 100 100 R 50 50 1 1 P
-X ~ 2 -200 -100 100 R 50 50 1 1 P
-X ~ 3 200 100 100 L 50 50 1 1 P
-X ~ 4 200 -100 100 L 50 50 1 1 P
-ENDDRAW
-ENDDEF
-#
 # esp32_energy_monitor-rescue_R-padlock-rescue
 #
 DEF esp32_energy_monitor-rescue_R-padlock-rescue R 0 0 N Y 1 F N
@@ -534,29 +352,6 @@ DRAW
 S -40 -100 40 100 0 1 10 N
 X ~ 1 0 150 50 D 50 50 1 1 P
 X ~ 2 0 -150 50 U 50 50 1 1 P
-ENDDRAW
-ENDDEF
-#
-# esp32_energy_monitor-rescue_SMAJ5.0A-padlock-rescue
-#
-DEF esp32_energy_monitor-rescue_SMAJ5.0A-padlock-rescue D 0 30 Y Y 1 F N
-F0 "D" 400 350 50 H V L BNN
-F1 "esp32_energy_monitor-rescue_SMAJ5.0A-padlock-rescue" 400 250 50 H V L BNN
-F2 "DIOM5026X229N" 400 150 50 H I L BNN
-F3 "https://componentsearchengine.com/Datasheets/1/SMAJ5.0A.pdf" 400 50 50 H I L BNN
-F4 "Littelfuse SMAJ5.0A, Uni-Directional TVS Diode, 400W, 2-Pin DO-214AC" 400 -50 50 H I L BNN "Description"
-F5 "2.29" 400 -150 50 H I L BNN "Height"
-F6 "576-SMAJ5.0A" 400 -250 50 H I L BNN "Mouser Part Number"
-F7 "https://www.mouser.com/Search/Refine.aspx?Keyword=576-SMAJ5.0A" 400 -350 50 H I L BNN "Mouser Price/Stock"
-F8 "LITTELFUSE" 400 -450 50 H I L BNN "Manufacturer_Name"
-F9 "SMAJ5.0A" 400 -550 50 H I L BNN "Manufacturer_Part_Number"
-DRAW
-P 2 0 1 6 160 100 200 80 N
-P 2 0 1 6 200 -80 200 80 N
-P 2 0 1 6 200 -80 240 -100 N
-P 4 0 1 6 200 0 400 100 400 -100 200 0 N
-X ~ 1 0 0 200 R 50 50 0 0 B
-X ~ 2 600 0 200 L 50 50 0 0 B
 ENDDRAW
 ENDDEF
 #
@@ -666,34 +461,6 @@ X D+ 3 300 0 100 L 50 50 1 1 P
 X ID 4 300 -200 100 L 50 50 1 1 P
 X GND 5 0 -400 100 U 50 50 1 1 W
 X Shield 6 -100 -400 100 U 50 50 1 1 P
-ENDDRAW
-ENDDEF
-#
-# power_+3.3VADC
-#
-DEF power_+3.3VADC #PWR 0 0 Y Y 1 F P
-F0 "#PWR" 150 -50 50 H I C CNN
-F1 "power_+3.3VADC" 0 100 50 H V C CNN
-F2 "" 0 0 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
-DRAW
-P 3 0 1 0 0 0 0 40 0 40 N
-P 6 0 1 0 0 40 20 20 0 70 -20 20 0 40 0 40 N
-X +3.3VADC 1 0 0 0 U 50 50 0 0 W N
-ENDDRAW
-ENDDEF
-#
-# power_GNDD
-#
-DEF power_GNDD #PWR 0 0 Y Y 1 F P
-F0 "#PWR" 0 -250 50 H I C CNN
-F1 "power_GNDD" 0 -125 50 H V C CNN
-F2 "" 0 0 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
-DRAW
-S -50 -60 50 -80 0 1 10 F
-P 2 0 1 0 0 0 0 -60 N
-X GNDD 1 0 0 0 D 50 50 1 1 W N
 ENDDRAW
 ENDDEF
 #
