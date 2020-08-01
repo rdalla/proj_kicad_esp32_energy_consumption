@@ -288,8 +288,6 @@ NoConn ~ 6825 3725
 NoConn ~ 6825 3825
 NoConn ~ 6825 3925
 NoConn ~ 6825 4025
-NoConn ~ 5025 3425
-NoConn ~ 5025 3525
 NoConn ~ 6225 2425
 NoConn ~ 5925 4825
 NoConn ~ 6025 4825
@@ -781,8 +779,6 @@ Wire Wire Line
 Wire Wire Line
 	5025 4025 4825 4025
 Connection ~ 4825 4025
-Wire Wire Line
-	5025 3725 4575 3725
 Wire Wire Line
 	4575 3875 4925 3875
 Wire Wire Line
@@ -1709,25 +1705,21 @@ Wire Wire Line
 	9975 2350 10050 2350
 Wire Wire Line
 	9975 2450 10050 2450
-Text GLabel 10675 5975 1    60   Output ~ 0
-IO2
-Text GLabel 10575 5975 1    60   Output ~ 0
-IO4
-Text GLabel 10475 5975 1    60   Output ~ 0
-IO5
-Text GLabel 10375 5975 1    60   Output ~ 0
-IO12
 Text GLabel 10275 5975 1    60   Output ~ 0
+IO2
+Text GLabel 9775 5975 1    60   Output ~ 0
+IO4
+Text GLabel 10575 5975 1    60   Output ~ 0
+IO12
+Text GLabel 10475 5975 1    60   Output ~ 0
 IO13
-Text GLabel 10175 5975 1    60   Output ~ 0
+Text GLabel 10675 5975 1    60   Output ~ 0
 IO14
-Text GLabel 10075 5975 1    60   Output ~ 0
+Text GLabel 10375 5975 1    60   Output ~ 0
 IO15
 Text GLabel 9975 5975 1    60   Output ~ 0
-IO16
-Text GLabel 9875 5975 1    60   Output ~ 0
 IO17
-Text GLabel 9775 5975 1    60   Output ~ 0
+Text GLabel 10075 5975 1    60   Output ~ 0
 IO18
 Text GLabel 9675 5975 1    60   Output ~ 0
 IO19
@@ -1757,9 +1749,9 @@ Wire Notes Line
 	7325 1050 11000 1050
 Wire Wire Line
 	2450 1175 2450 1725
-Text GLabel 7675 5975 1    60   Output ~ 0
-IO32
 Text GLabel 7775 5975 1    60   Output ~ 0
+IO32
+Text GLabel 7675 5975 1    60   Output ~ 0
 IO33
 Text GLabel 7875 5975 1    60   Output ~ 0
 IO34
@@ -1980,4 +1972,12 @@ Wire Notes Line
 	7325 4975 7325 6500
 Text Notes 7400 5175 0    60   ~ 0
 EXTERNAL ACCESS CIRCUIT
+Text GLabel 10175 5975 1    60   Output ~ 0
+IO5
+Text GLabel 9875 5975 1    60   Output ~ 0
+IO16
+Wire Wire Line
+	5025 3725 4575 3725
+NoConn ~ 5025 3425
+NoConn ~ 5025 3525
 $EndSCHEMATC
